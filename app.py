@@ -109,3 +109,6 @@ if uploaded_file is not None:
         
         st.write("Model 2 (Movement Detection) Result:")
         st.write("No movement detected" if results2 else "Movement detected")
+
+        
+st.markdown("Made with :heart: by Hemant")
