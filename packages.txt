@@ -1,1 +1,1 @@
-echo "libgl1-mesa-glx" > packages.txt
+libgl1-mesa-glx
