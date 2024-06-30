@@ -29,6 +29,7 @@ option = st.selectbox("Select an option", ("Detect People", "Detect Movement"))
 uploaded_file = st.file_uploader("Choose a video...", type=["mp4", "avi", "mov"])
 
 # people detect karne wlaa function for the statement 1 
+@st.cache(allow_output_mutation=True)
 def detect_people(video_path, model):
     cap = cv2.VideoCapture(video_path)
     predictions = []
